@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Meal Plan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Weekly Meal Plan</h1>
+    </header>
+    <main>
+        <section id="meal-plan">
+            <h2>Meal Plan</h2>
+            <div id="meal-plan-container"></div>
+        </section>
+        <section id="add-meal">
+            <h2>Add a Meal</h2>
+            <form id="meal-form">
+                <label for="meal-name">Meal Name:</label>
+                <input type="text" id="meal-name" required>
+                <label for="meal-day">Day:</label>
+                <select id="meal-day" required>
+                    <option value="">Select a day</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+                <button type="submit">Add Meal</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
